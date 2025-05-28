@@ -1,0 +1,140 @@
+
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    border-radius: 20px;
+    background-color: #072f55;
+    color: #333;
+}
+
+
+header {
+    background-color: #0e376f;
+    color: rgb(170, 197, 220);
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 2px 5px rgba(222, 176, 176, 0.559);
+}
+
+header img {
+    width: 300px;
+    height: auto;
+    display: center;
+}
+
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(170, 197, 220);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+nav li a {
+    color: #213a79;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: #5b86b1;
+    color: #fff;
+}
+
+
+section h2, section h3, section h4 {
+    color: #103f57;
+}
+
+
+section img {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: 10px auto;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;;
+}
+
+
+ol li  {
+    margin: 20px;
+    margin-bottom: 5px;
+    padding:  20px;
+    list-style-type: decimal;
+    font-weight: bold;
+    color: #02291d;
+    font-size: 18px;
+}
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+form {
+    background-color: #434e82;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #97a3c5;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #54627e;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #005599;
+    color: rgb(199, 206, 226);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003366;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav li {
+        display: block;
+        padding: 10px;
+    }
+
+    section img {
+        max-width: 100%;
+    }
+}
